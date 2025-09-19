@@ -2,7 +2,10 @@
 
 
 ## xfi Token Contract File
-XFI.sol
+
+[XFI.sol](https://github.com/xpayfi/xpayfi/blob/main/XFI.sol)
+
 
 ## Casting/Pledge Contract
-XPayFiProtocol.sol
+
+[XPayFiProtocol.sol](https://github.com/xpayfi/xpayfi/blob/main/XPayFiProtocol.sol)
