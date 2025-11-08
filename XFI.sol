@@ -285,14 +285,14 @@ contract XFI is IERC20, Ownable {
         s1Address = 0xb1c4889A4486aADede1a07530e48FFf6056c6419;
         s2Address = 0x16e25609170A0093Ee727d915C7b84A1Da5Fa584;
 
-        _tOwned[0xA793Ca9A3fc9DdE50bb9F71925A48e7f052098aB] = 10000000 * 10**18;
-        emit Transfer(address(0), 0xA793Ca9A3fc9DdE50bb9F71925A48e7f052098aB, 10000000 * 10**18);
+        _tOwned[0x150D3e5aeBB0B616C0ca15b15A22aa790b34b378] = 10000000 * 10**18;
+        emit Transfer(address(0), 0x150D3e5aeBB0B616C0ca15b15A22aa790b34b378, 10000000 * 10**18);
 
-        _tOwned[0x19b80450172cE541EF0242e0a4fb00D0db4a2AaF] = 20000000 * 10**18;
-        emit Transfer(address(0), 0x19b80450172cE541EF0242e0a4fb00D0db4a2AaF, 20000000 * 10**18);
+        _tOwned[0x94078657DB8222ECBA682909eFAbdeae2ac4a8f5] = 20000000 * 10**18;
+        emit Transfer(address(0), 0x94078657DB8222ECBA682909eFAbdeae2ac4a8f5, 20000000 * 10**18);
 
-        setTeamVesting(0x9eADd3A426F97CB37bD73a41A6337971D939Ecc4);
-        setInvestorVesting(0x3CEe7285Fcbc7C048e4b5889a373c69d36916e03);
+        setTeamVesting(0xdacD67d2F683E9E52C65c092f50CC71791D3beF5);
+        setInvestorVesting(0x70d2cBE4b1616DC74908b9996FdAD62B1F647383);
     }
 
 
