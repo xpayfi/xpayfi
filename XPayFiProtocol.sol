@@ -252,14 +252,14 @@ contract XPayFiProtocol is Ownable, ReentrancyGuard {
     // ============== Constructor ==============
 
     constructor() Ownable(msg.sender) {
-        xfi = IERC20(0x42a9f92C212e90B4912238115DC12015765d7108);
-        usdt = IERC20(0xe38a71627E3289D8154da871F9ecF25Cd41EB483);
-        router = IUniswapV2Router(0xD99D1c33F9fC3444f8101754aBC46c52416550D1);
-        xfiUsdtPair = IUniswapV2Pair(0x29A417563d2df1Ba98A52792dD9d26BE21837fD0);
+        xfi = IERC20(0xfAd9152B792679C47Ed4471125A74D041142D53a);
+        usdt = IERC20(0x55d398326f99059fF775485246999027B3197955);
+        router = IUniswapV2Router(0x10ED43C718714eb63d5aA57B78B54704E256024E);
+        xfiUsdtPair = IUniswapV2Pair(0xBA57e276AaF6B3fd5fFc0C2A53fcb751ca824A58);
         
-        treasuryAddress = 0xF3d67683C307bA1417A73EeDe8CC1f7EF981D765;
-        marketAddress = 0xfc423Bcd523c58736B0d6A423Cb8E5a2ce00e732;
-        mintReceiveAddress = 0x87e124BacE67a8b9f59d1e673c1a7Ce27d023fC6;
+        treasuryAddress = 0xD828687Eb4f0c6caE6d45677f4Eff3F9D8D13AC2;
+        marketAddress = 0x7faB38030685e1c33d0E056c2CbAe44CeBdd4854;
+        mintReceiveAddress = 0xAdF0Beb27399EbC5C4D70eac0758CEd537F7FCB2;
         burnAddress = 0x000000000000000000000000000000000000dEaD;
 
         
